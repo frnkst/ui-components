@@ -13,8 +13,6 @@ const meta: Meta<ButtonComponent> = {
     },
   }),
   argTypes: {
-    text: () => 'test',
-    click: () => console.log("button clicked")
   },
 };
 
@@ -24,6 +22,7 @@ type Story = StoryObj<ButtonComponent>;
 // More on writing stories with args: https://storybook.js.org/docs/angular/writing-stories/args
 export const Primary: Story = {
   args: {
+    label: 'Click me'
   },
 };
 

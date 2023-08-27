@@ -8,6 +8,11 @@
       "root": "projects/vt-ui-elements",
       "sourceRoot": "projects/vt-ui-elements/src",
       "prefix": "vt",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
