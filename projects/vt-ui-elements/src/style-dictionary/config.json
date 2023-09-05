@@ -3,7 +3,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "../vt-ui-elements/src/",
+      "buildPath": "../",
       "files": [
         {
           "destination": "_variables.scss",
